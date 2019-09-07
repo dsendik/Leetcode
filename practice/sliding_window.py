@@ -4,7 +4,6 @@ This is done using the sliding window technique, where each window is made up
 of k elements in the list. For each iteration, the window slides one place.
 """
 
-
 def maxSlidingWindow(nums, k):
     n = len(nums)
 
