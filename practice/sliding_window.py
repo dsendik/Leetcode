@@ -30,7 +30,7 @@ def maxSlidingWindow(nums, k):
 
 
 # test cases
-# print(maxSlidingWindow([1, 3, -1, -3, 5, 3, 6, 7], 3) == [3, 6, 7])
+print(maxSlidingWindow([1, 3, -1, -3, 5, 3, 6, 7], 3) == [3, 6, 7])
 print(maxSlidingWindow([-5, -2, -1, -8, -10], 3) == [-5, -2, -1])
 print(maxSlidingWindow([1, 3, -1, -3, 5, 1, 1, 1], 2) == [5, 1])
 print(maxSlidingWindow([1, 3, -1, -3, 5, 1, 1, 1], 0) == "invalid input")
